@@ -1,8 +1,26 @@
-# React + Vite
+# Events Manager Mobile app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a react project built in React library, using some basic and indepth concepts of React. We can see the details of an event and comment on that.
+<br>
+<br>
 
-Currently, two official plugins are available:
+### Installation
+* Clone the repo
+```
+  git clone https://github.com/MegaDhakse2/event-manager-dummy-mob-ui-app.git
+```
+* Install dependencies <code>npm install</code>
+* To Run Dev server <code>npm run dev</code>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Majorly used Concepts
+* Functional Components
+* React Essentials
+* Redux (toolkit)
+* Handling Forms
+* Stylings using Vennila CSS
+  
+<br>
+<br>
+
+*Thanks✌* 😎
