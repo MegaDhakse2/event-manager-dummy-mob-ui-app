@@ -1,0 +1,49 @@
+.assignee-block{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 1.7rem;
+    margin-right: 1.7rem;
+    border-bottom: solid 1px #ababb5;
+}
+
+.assignee-block > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.assignee-block > div > span{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-style: italic;
+}
+
+.note-holder{
+    height: 3lh;
+    overflow: auto;
+    border: solid 1px #83838f;
+    line-height: 17px;
+    font-size: medium;
+    padding: 4px;
+    border-radius: 7px
+}
+
+.users-dropdown{
+    border: solid 1px #95959f;
+    border-radius: 2rem;
+    padding: 6px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: medium;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.users-dropdown > select{
+    all: unset;
+}
