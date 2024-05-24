@@ -19,6 +19,10 @@ export default function CommentsBlock(){
         const userCommentData = Object.fromEntries(rawFD.entries());
         // console.log(userCommentData);
 
+        if (!userCommentData.commentTxt) {
+            return
+        }
+
         //Store user comment data
         dispatch(eventActions.setComments({
             commentTxt: userCommentData.commentTxt,

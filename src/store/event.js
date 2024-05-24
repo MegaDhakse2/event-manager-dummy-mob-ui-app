@@ -6,13 +6,7 @@ const eventsInitialState = {
                 eventDate :'2024-05-11',
                 eventNote : '',
                 assignee : 'Mega K S',
-                comments : [
-                  {   
-                     commentId : 0,
-                     commentTxt: '',
-                     commenter: ''
-                  }
-                ]
+                comments : []
             }
 }
 
